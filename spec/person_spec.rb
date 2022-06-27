@@ -18,6 +18,7 @@ describe Person do
         pant_width: "32"
       }
     end
+    
 
     it 'will assign an arbitrary number of properties on initialization' do
       avi = Person.new(avi_attributes)
